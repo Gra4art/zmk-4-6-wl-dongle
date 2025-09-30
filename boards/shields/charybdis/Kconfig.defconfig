@@ -6,6 +6,8 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
 
+endif
+
 if ZMK_DISPLAY
 
 config I2C
@@ -43,4 +45,5 @@ config ZMK_SPLIT
 	default y
 	
 endif
+
 
