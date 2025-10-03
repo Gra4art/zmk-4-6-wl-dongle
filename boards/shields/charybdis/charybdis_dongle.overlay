@@ -20,11 +20,11 @@
     oled: ssd1306@3c {
         compatible = "sinowealth,sh1106";
         reg = <0x3c>;
-        width = <120>;
-        height = <56>;
-        segment-offset = <4>;
+        width = <128>;
+        height = <64>;
+        segment-offset = <2>;
         page-offset = <0>;
-        display-offset = <4>;
+        display-offset = <0>;
         multiplex-ratio = <63>;
         segment-remap;
         com-invdir;
@@ -45,7 +45,6 @@
 		relay-channel = <102>;
 	};
 };
-
 
 
 
