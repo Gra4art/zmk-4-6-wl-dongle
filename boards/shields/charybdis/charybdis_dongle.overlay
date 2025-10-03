@@ -24,7 +24,7 @@
         height = <64>;
         segment-offset = <0>;
         page-offset = <0>;
-        display-offset = <2>;
+        display-offset = <3>;
         multiplex-ratio = <63>;
         segment-remap;
         com-invdir;
@@ -45,4 +45,5 @@
 		relay-channel = <102>;
 	};
 };
+
 
