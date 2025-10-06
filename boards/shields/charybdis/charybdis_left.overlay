@@ -71,11 +71,12 @@
 	};
 };
 
- {
+/ {
     rgb_underglow: rgb_underglow {
         compatible = "zmk,led-strip-rgb-underglow";
     };
 };
+
 
 
 
