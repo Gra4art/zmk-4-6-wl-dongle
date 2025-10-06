@@ -142,5 +142,26 @@
     };
 };
 
+&mt {
+    quick-tap-ms = <200>;
+    flavor = "tap-preferred";
+    tapping-term-ms = <170>;
+};
+
+&lt {
+    quick-tap-ms = <200>;
+    flavor = "tap-preferred";
+    tapping-term-ms = <170>;
+};
+
+&mmv {  // Движение курсора
+    time-to-max-speed-ms = <50>;  // Разгон за 300 мс
+    acceleration-exponent = <5>;   // Линейная кривая (0=без, 3+=агрессивная)
+};
+
+&msc {  // Прокрутка
+    time-to-max-speed-ms = <150>;
+    acceleration-exponent = <5>;   // Агрессивная кривая для скролла
+};
 
 
